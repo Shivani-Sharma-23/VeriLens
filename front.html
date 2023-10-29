@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PicSleuth</title>
+    <style>
+        body {
+            background-color: lavender;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .content {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .image {
+            flex: 1;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            width: 600px; /* Fixed image width */
+        }
+
+        .rectangle {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            font-size: 24px;
+            color: white;
+            border: none;
+        }
+        .content p {
+            font-size: 50px; /* Larger text size for the paragraph */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <p><h2 font size = 50px><i>Welcome to</i></h2>
+            <h1 font size = 70px><b>PICSLEUTH</b></h1>
+        Your Guardian for Visual Authenticity</p>
+            <div class="rectangle"><a href = "http://localhost:8501/"><b>Get Started</b></a></div>
+        </div>
+        <div class="image">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR71A-DNj79e_noXPuERjKN1Au_p086sl3zzKyjxPDk_4xk7Vuv" alt="Image">
+        </div>
+    </div>
+</body>
+</html>
