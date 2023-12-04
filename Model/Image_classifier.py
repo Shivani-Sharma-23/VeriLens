@@ -12,7 +12,7 @@ from sklearn.metrics import classification_report, accuracy_score
 from sklearn.model_selection import GridSearchCV
 
 # Preparing Data
-input_dir ="C:\\Users\\shiva\\Documents\\AI_Model\\Model\\archive"
+input_dir ="C:\\Users\\shiva\\Documents\\AI_Model\\AI_generated_Fake_Image_Detection_model\\Model\\archive"
 categories = ['training_fake','training_real']
 
 data = []
