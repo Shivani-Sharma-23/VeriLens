@@ -19,8 +19,6 @@ My goal is to provide a state-of-the-art solution for detecting AI-generated fak
 ## Getting Started
 
 - Clone the repository to your local machine.
-- Install the required dependencies listed in the `requirements.txt` file.
-- Follow our step-by-step instructions in the documentation to get started with model training and inference.
 
 ## Model Performance
 
